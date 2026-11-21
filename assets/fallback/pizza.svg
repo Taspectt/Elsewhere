@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-label="Illustrated pizza on a dark restaurant table">
+<defs>
+  <radialGradient id="table" cx="53%" cy="49%" r="88%"><stop stop-color="#625044"/><stop offset=".6" stop-color="#342b27"/><stop offset="1" stop-color="#171416"/></radialGradient>
+  <radialGradient id="dough"><stop stop-color="#eeba6d"/><stop offset=".82" stop-color="#c9813d"/><stop offset="1" stop-color="#9a532e"/></radialGradient>
+  <radialGradient id="sauce"><stop stop-color="#e76b38"/><stop offset="1" stop-color="#ac3625"/></radialGradient>
+  <radialGradient id="cheese"><stop stop-color="#ffe8a5"/><stop offset="1" stop-color="#f3b654"/></radialGradient>
+  <radialGradient id="vignette" cx="50%" cy="50%" r="65%"><stop offset=".55" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#09090c" stop-opacity=".82"/></radialGradient>
+  <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="22"/></filter>
+  <filter id="soft" x="-10%" y="-10%" width="120%" height="120%"><feGaussianBlur stdDeviation="3"/></filter>
+</defs>
+<rect width="1600" height="900" fill="url(#table)"/>
+<path d="M0 170 1600 80 M0 620 1600 540 M320 0 420 900 M1270 0 1350 900" stroke="#6b5748" stroke-opacity=".28" stroke-width="5"/>
+<ellipse cx="797" cy="494" rx="390" ry="369" fill="#060607" opacity=".60" filter="url(#shadow)"/>
+<ellipse cx="778" cy="433" rx="374" ry="360" fill="#282021" opacity=".65"/>
+<circle cx="772" cy="418" r="340" fill="url(#dough)" stroke="#8d4b29" stroke-width="5"/>
+<circle cx="772" cy="418" r="310" fill="url(#sauce)"/>
+<circle cx="772" cy="418" r="295" fill="url(#cheese)"/>
+<path d="M770 126 776 713 M480 218 1063 616 M478 621 1061 216" stroke="#b47a43" stroke-width="8" stroke-linecap="round" opacity=".43"/>
+<g fill="#a33c28" stroke="#802920" stroke-width="5">
+<circle cx="686" cy="245" r="43"/><circle cx="897" cy="262" r="46"/><circle cx="1016" cy="403" r="40"/><circle cx="856" cy="520" r="49"/>
+<circle cx="651" cy="581" r="39"/><circle cx="531" cy="386" r="44"/><circle cx="713" cy="433" r="32"/><circle cx="925" cy="406" r="29"/>
+</g>
+<g fill="#315b32" stroke="#204526" stroke-width="2">
+<path d="M751 332q40-55 64-12-19 39-64 12Z"/><path d="M606 493q24-63 57-42-7 42-57 42Z"/>
+<path d="M936 615q-19-56 26-66 14 42-26 66Z"/><path d="M960 327q18-55 53-22-6 37-53 22Z"/>
+<path d="M678 648q17-47 55-35-8 39-55 35Z"/><path d="M560 295q16-45 51-34-11 36-51 34Z"/>
+<path d="M819 197q4-47 40-46-2 35-40 46Z"/>
+</g>
+<g fill="#f2a64c" opacity=".58">
+<circle cx="619" cy="315" r="10"/><circle cx="814" cy="362" r="8"/><circle cx="734" cy="526" r="10"/><circle cx="954" cy="481" r="6"/><circle cx="635" cy="416" r="5"/>
+</g>
+<g fill="#ede0bd" opacity=".70"><circle cx="1047" cy="676" r="3"/><circle cx="1100" cy="629" r="2"/><circle cx="457" cy="651" r="2"/><circle cx="540" cy="733" r="3"/></g>
+<rect width="1600" height="900" fill="url(#vignette)"/>
+</svg>
